@@ -1,0 +1,108 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  color: white;
+  background-color: rgb(34, 34, 34);
+  font-family: poppinsregular;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid white;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+.linhas {
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+
+span {
+  color: rgb(132, 14, 201);
+  font-family: poppinssemibold;
+  max-width: 500px;
+}
+
+.textLi {
+  color: rgb(132, 14, 201);
+  font-weight: bold;
+  font-family: poppinslight;
+  margin-bottom: 10px;
+}
+.textLi:hover {
+  color: white;
+}
+
+#tecn {
+  max-width: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(132, 14, 201);
+  transition: 0.3s all;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+aside {
+  margin-top: 110px;
+}
+
+#imginicio {
+  width: 600px;
+  margin-left: 80px;
+}
+
+footer {
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgfoot {
+  width: 40px;
+  height: 50px;
+  cursor: pointer;
+}
+
+input {
+  padding: 9px;
+  border-radius: 10px;
+  border: none;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+form [type="submit"] {
+  background-color: rgb(132, 14, 201);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 14%;
+}
+
+form [type="submit"]:hover {
+  cursor: pointer;
+}

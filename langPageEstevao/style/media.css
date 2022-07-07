@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  #title {
+    flex-direction: column;
+    line-height: 28px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  aside {
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+  }
+
+  #imginicio {
+    display: none;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input {
+    width: 80%;
+    margin-bottom: 8px;
+  }
+
+  form [type="submit"] {
+    width: 50%;
+  }
+}
